@@ -7,7 +7,7 @@ spec = Gem::Specification.new do |s|
   s.files += Dir["ext/**/*.[ch]"] + 
     Dir["lib/**/*.rb"] +
   s.files += Dir["tests/*"]
-  s.files += %w(Tioga_README lgpl.txt)
+  s.files += %w(Tioga_README lgpl.txt README.md)
   # We explicitly add TexPreamble so that it doesn't get forgotten
   s.files += ["lib/Tioga/TexPreamble.rb"]
   s.test_files = Dir["tests/tsc_*.rb"]
